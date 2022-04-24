@@ -1,0 +1,175 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    overflow-x: hidden !important;
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+}
+.subdiv{
+    height: 100vh;
+    width: auto;
+}
+.bgimg{
+    height: 95vh;
+    width: 99vw;
+}
+
+@media (max-width: 1000px){
+    .bgimg{
+        height: 22vh;
+    }
+}
+
+.navbar{
+    width: 100vw !important;
+   overflow-x: hidden !important;
+   background-color: #000000 !important;
+}
+.menu{
+    width: 100vw !important;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menucards{
+    width: 100vw !important;
+    height: auto;
+    margin-left: 3em;
+}
+.cards{
+    margin: 2em 0em 0em -5em;
+    display: flex;
+    justify-content: center;
+}
+.cardcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menucards h1{
+    font-size: 70px;
+    text-align: center;
+    margin: 6em 0em 1em 0em;
+}
+.maincard{
+    height: 59vh;
+}
+.maincard:hover{
+    box-shadow: 0px 2px 5px 5px #dad8d8;
+}
+
+.responsiveimg:hover{
+    transform: scale(1.2,1.2);
+    transition: all 1s ease;
+}
+.btn{
+    background-color:#000000 !important;
+    color: #ffffff !important;
+    width: 40vw !important;
+    margin-top: 0.9em !important;
+}
+.price{
+    width: 50vw;
+    height: 10vh;
+    display: flex;
+    font-weight: 700;
+    font-size: 18px;
+    gap: 12em;
+}
+.rating{
+    position: relative;
+    top: -0.5em !important;
+}
+.rate{
+    position: relative;
+}
+footer{
+    height: 30vh;
+    width: auto;
+    background-color: #000000;
+    position: relative;
+    top: 30em;
+    bottom: 0em !important;
+    z-index: -1;
+    color: #ffffff;
+}
+footer ul{
+    list-style-type: none !important;
+    display: flex !important;
+    gap: 3em;
+    font-size: 18px;
+    font-weight: 700;
+}
+.icons{
+    display: flex;
+    gap: 2em;
+}
+.footercontent{
+    display: flex;
+    padding: 3em;
+    gap: 40em;
+}
+footer span{
+    width: 100vw;
+}
+
+@media (max-width: 1000px){
+    .maincard{
+        height: 64vh !important;
+        width: 85vw;
+    }
+    .heading{
+        font-size: 16px !important;
+        font-weight: 800 !important;
+    }
+    .menucards{
+        position: relative;
+        top: 52em;
+    }
+    .menucards h1{
+        font-size: 30px;
+        display: flex !important;
+        justify-content: center !important;
+    }
+    .btn{
+        width: 50vw !important;
+    }
+    .cards{
+        margin: 1em 0em 0em 0em !important;
+    }
+    .menu{
+        margin-left: -1em !important;
+    }
+    footer{
+        top: 120em !important;
+        height: 45vh;
+    }
+    footer ul{
+        gap: 1em;
+        font-size: 14px;
+        margin-left: -3em !important;
+    }
+    .icons{
+        gap: 1em;
+    }
+    .footercontent{
+        gap: 2em !important;
+        flex-direction: column !important;
+    }
+    footer span{
+        width: 100vw;
+    }
+    .price{
+        width: 50vw;
+        height: 10vh;
+        display: flex;
+        font-weight: 700;
+        font-size: 18px;
+        gap: 4em;
+    }
+}
